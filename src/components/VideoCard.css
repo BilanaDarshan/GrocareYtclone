@@ -1,0 +1,40 @@
+.video-card {
+    display: flex;
+    flex-direction:column;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #000;
+  }
+  
+ 
+  .video-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    float: left;
+    margin-bottom: 10px;
+  }
+  
+  .channel-info {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    flex-direction: row;
+  }
+  
+  .channel-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    
+  }
+  
+  .channel-name {
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+
+  }
+  
